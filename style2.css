@@ -1,0 +1,68 @@
+.page-title{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    color: white;
+}
+.game-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.game-card{
+    flex: 0 0 calc(33.33%-20px);
+    max-width:calc(33.33%-20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+body{
+    background:linear-gradient (rgba(0,0,0,0.75), rgba(0,0, 0,0.75)),url(background.jpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    }
+    nav ul li::after{
+        content:'' ;
+        height: 3px;
+        width:0 ;
+        background:#009688 ;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+ }
+ 
+ body{
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url("background.jpg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+ }
+ .game-title{
+    color: white;
+ }
+ .game-description{
+    color: white;
+ }
+ .game-price{
+    color: white;
+ }
